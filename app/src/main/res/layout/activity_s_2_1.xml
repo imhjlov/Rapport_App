@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m_bg"
+    tools:context="com.rapport.rapport_app.S_2_1Activity"
+    tools:layout="@layout/layout_custom_actionbar2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="310.6dp"
+        android:layout_height="342dp"
+        app:srcCompat="@drawable/s_2_1_pop"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_s_2_1"
+            android:layout_width="256.6dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:background="@drawable/s_2_1_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q_bg">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+            android:id="@+id/q_i1_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="65dp" />
+
+        <ImageView
+            android:id="@+id/q_i2_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="false"
+            android:layout_marginBottom="50dp"
+            android:layout_toRightOf="@+id/q_i1_btn" />
+
+        <ImageView
+            android:id="@+id/q_i3_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/q_i1_btn"
+            android:layout_marginRight="65dp" />
+
+        <ImageView
+            android:id="@+id/q_i4_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/q_i2_btn"
+            android:layout_toRightOf="@+id/q_i3_btn" />
+
+    </RelativeLayout>
+</FrameLayout>

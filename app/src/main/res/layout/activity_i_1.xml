@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i_bg_1"
+    tools:context="com.rapport.rapport_app.I_1Activity">
+
+    <RelativeLayout
+        android:id="@+id/showSettingMenu"
+        android:layout_width="175.3dp"
+        android:layout_height="147dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/s_bg"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoOrderSet"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoAlret"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="50dp">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/i_btn"
+        android:layout_width="256.6dp"
+        android:layout_height="97.3dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/i_btn" />
+</FrameLayout>

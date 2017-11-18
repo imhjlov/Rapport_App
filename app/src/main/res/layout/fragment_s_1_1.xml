@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    tools:context="com.rapport.rapport_app.Fragment.S_1_1Fragment"
+    tools:layout="@layout/activity_s_1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="310.6dp"
+        android:layout_height="440dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/s_1_1_pop" />
+</RelativeLayout>

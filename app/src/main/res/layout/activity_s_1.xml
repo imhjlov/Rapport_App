@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m_bg"
+    android:orientation="vertical"
+    tools:context="com.rapport.rapport_app.MainActivity"
+    tools:layout="@layout/layout_custom_actionbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/s_1viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/s_1tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_alignBottom="@+id/s_1viewPager"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="43dp"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

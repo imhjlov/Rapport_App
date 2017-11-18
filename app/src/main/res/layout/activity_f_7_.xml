@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_7__bg">
+
+    <RelativeLayout
+        android:id="@+id/showSettingMenu"
+        android:layout_width="175.3dp"
+        android:layout_height="147dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/s_bg"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoOrderSet"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s_ll_rapoAlret"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="50dp">
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="115dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:elegantTextHeight="false"
+                android:nestedScrollingEnabled="false"
+                android:text="엄마와 아기의 정확한 수면 의식을\n 위해 첫 일주일동안 라포라포가\n 수면 의식 시간을 분석합니다.\n오늘은                   입니다.\n조금만 기다려 주세요!"
+                android:textAlignment="center"
+                android:textColor="@color/colorMainWhite"
+                android:textSize="16sp"
+                app:font="custom1" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/f_7__btn"
+            android:layout_width="256.6dp"
+            android:layout_height="98dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="false"
+            android:layout_centerInParent="true"
+            android:background="@drawable/f_7_btn" />
+
+        <TextView
+            android:id="@+id/f_7_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="n일차"
+            android:textColor="@color/colorMainWhite"
+            android:textSize="23sp"
+            app:font="custom2" />
+    </RelativeLayout>
+
+</FrameLayout>

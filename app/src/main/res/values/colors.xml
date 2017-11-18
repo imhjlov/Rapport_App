@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+
+    <!-- 메인1 배경 -->
+    <color name="colorMainBlue">#3b537a</color>
+    <!-- 메인2  -->
+    <color name="colorMainGray">#d8d8d8</color>
+    <!-- 메인3 -->
+    <color name="colorMainWhite">#ffffff</color>
+    <!-- 서브1 -->
+    <color name="colorSubYellow">#E2DB7F</color>
+    <!-- 서브2 -->
+    <color name="colorSubPink">#EFD8E1</color>
+    <!-- 서브3 -->
+    <color name="colorSubGreen">#CFE8E3</color>
+    <!-- 서브4 -->
+    <color name="colorSubBlue">#A9C7E9</color>
+    <!-- 액션바-->
+    <color name="colorActionBar">#4F6588</color>
+
+    <!-- 탭-->
+    <color name="colorTab">#2b324f</color>
+</resources>

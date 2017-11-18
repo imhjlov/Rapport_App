@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_feedback_sel">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/f_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_feedback_sel_7day_standard_feedback"
+            android:layout_width="309.3dp"
+            android:layout_height="178.6dp"
+            android:layout_marginTop="113.3dp"
+            android:background="@drawable/f_criteria_btn" />
+
+        <Button
+            android:id="@+id/btn_feedback_sel_today_feedback"
+            android:layout_width="309.3dp"
+            android:layout_height="178.6dp"
+            android:layout_below="@+id/btn_feedback_sel_7day_standard_feedback"
+            android:background="@drawable/f_today_btn" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
